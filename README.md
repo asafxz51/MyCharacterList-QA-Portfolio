@@ -57,7 +57,7 @@ Here are 3 critical/medium bugs found during the testing cycle, demonstrating my
 * **Jira Screenshot:**
   <br>![Bug 1 Screenshot](https://via.placeholder.com/600x300?text=Insert+Jira+Ticket+Screenshot+Here)
 
-#### Bug 2: [Profile/Logic] Empty public lists are visible on user profiles
+#### Bug 2: [Profile] Empty public lists are visible on user profiles
 * **Ticket ID:** KAN-9
 * **Priority:** 🟡 Low
 * **Description:** Public lists that contain 0 characters are supposed to be hidden from the public profile view to prevent visual clutter and empty states. However, the system currently fails to filter them out, rendering empty list cards to profile visitors.
@@ -70,7 +70,7 @@ Here are 3 critical/medium bugs found during the testing cycle, demonstrating my
 * **Jira Screenshot:**
   <br>![Bug 2 Screenshot](https://via.placeholder.com/600x300?text=Insert+Jira+Ticket+Screenshot+Here)
 
-#### Bug 3: [Backend/API] Jikan Search Endpoint returns empty JSON
+#### Bug 3: [Characters] Jikan Search Endpoint returns empty JSON
 * **Ticket ID:** KAN-8
 * **Priority:** 🔴 High
 * **Description:** When querying the internal backend API for Anime characters (which acts as a proxy to the Jikan API), the server responds with a 200 OK status, but the JSON payload is completely empty. This breaks the character search functionality on the frontend.
