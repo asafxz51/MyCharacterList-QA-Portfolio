@@ -46,7 +46,7 @@ Here are 3 critical/medium bugs found during the testing cycle, demonstrating my
 
 #### Bug 1: [Auth/UI] Guest Community Modal displays "No users found"
 * **Ticket ID:** KAN-6
-* **Priority:** 🟠 Medium
+* **Priority:** 🔴 High
 * **Description:** When a logged-out guest user attempts to explore the community by clicking the "See more of our community..." button on the landing page, the modal opens successfully but fails to load the user grid, displaying a false "No users found" state instead.
 * **Steps to Reproduce:**
   1. Navigate to the Home page as a logged-out Guest.
@@ -55,11 +55,11 @@ Here are 3 critical/medium bugs found during the testing cycle, demonstrating my
 * **Expected Result:** The Community Modal opens and the grid populates with community users (with guest restrictions applied, e.g., no follow button).
 * **Actual Result:** No users are displayed and the grid says "No users found."
 * **Jira Screenshot:**
-  <br>![Bug 1 Screenshot](https://via.placeholder.com/600x300?text=Insert+Jira+Ticket+Screenshot+Here)
+  <br>![Bug 1 Screenshot](KAN-6.jpg)
 
 #### Bug 2: [Profile] Empty public lists are visible on user profiles
 * **Ticket ID:** KAN-9
-* **Priority:** 🟡 Low
+* **Priority:** 🟠 Medium
 * **Description:** Public lists that contain 0 characters are supposed to be hidden from the public profile view to prevent visual clutter and empty states. However, the system currently fails to filter them out, rendering empty list cards to profile visitors.
 * **Steps to Reproduce:**
   1. Log in and ensure User A has a "Public" list with 0 characters added to it.
@@ -68,7 +68,7 @@ Here are 3 critical/medium bugs found during the testing cycle, demonstrating my
 * **Expected Result:** The empty list does NOT appear in the "Public Lists" section.
 * **Actual Result:** The list appears with 0 items.
 * **Jira Screenshot:**
-  <br>![Bug 2 Screenshot](https://via.placeholder.com/600x300?text=Insert+Jira+Ticket+Screenshot+Here)
+  <br>![Bug 2 Screenshot](KAN-9.jpg)
 
 #### Bug 3: [Characters] Jikan Search Endpoint returns empty JSON
 * **Ticket ID:** KAN-8
@@ -80,7 +80,7 @@ Here are 3 critical/medium bugs found during the testing cycle, demonstrating my
 * **Expected Result:** HTTP Status 200 OK. The response is a properly formatted JSON array containing objects with id, title, image, and type: "character".
 * **Actual Result:** HTTP Status is "200 OK" but the JSON is empty `[]`.
 * **Jira Screenshot:**
-  <br>![Bug 3 Screenshot](https://via.placeholder.com/600x300?text=Insert+Jira+Ticket+Screenshot+Here)
+  <br>![Bug 3 Screenshot](KAN-8.jpg)
 
 ---
 
