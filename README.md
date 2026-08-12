@@ -55,7 +55,7 @@ Here are 3 critical/medium bugs found during the testing cycle, demonstrating my
 * **Expected Result:** The Community Modal opens and the grid populates with community users (with guest restrictions applied, e.g., no follow button).
 * **Actual Result:** No users are displayed and the grid says "No users found."
 * **Jira Screenshot:**
-  <br>![Bug 1 Screenshot](KAN-6.jpg)
+  <br>![Bug 1 Screenshot](assets/KAN-6.jpg)
 
 #### Bug 2: [Profile] Empty public lists are visible on user profiles
 * **Ticket ID:** KAN-9
@@ -68,7 +68,7 @@ Here are 3 critical/medium bugs found during the testing cycle, demonstrating my
 * **Expected Result:** The empty list does NOT appear in the "Public Lists" section.
 * **Actual Result:** The list appears with 0 items.
 * **Jira Screenshot:**
-  <br>![Bug 2 Screenshot](KAN-9.jpg)
+  <br>![Bug 2 Screenshot](assets/KAN-9.jpg)
 
 #### Bug 3: [Characters] Jikan Search Endpoint returns empty JSON
 * **Ticket ID:** KAN-8
@@ -80,7 +80,7 @@ Here are 3 critical/medium bugs found during the testing cycle, demonstrating my
 * **Expected Result:** HTTP Status 200 OK. The response is a properly formatted JSON array containing objects with id, title, image, and type: "character".
 * **Actual Result:** HTTP Status is "200 OK" but the JSON is empty `[]`.
 * **Jira Screenshot:**
-  <br>![Bug 3 Screenshot](KAN-8.jpg)
+  <br>![Bug 3 Screenshot](assets/KAN-8.jpg)
 
 ---
 
