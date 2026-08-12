@@ -36,7 +36,7 @@ A rigorous and exhaustive test suite was designed and executed, covering Authent
 All bugs discovered or improvements suggested during execution were logged, prioritized, and managed using a **Jira Kanban Board** to simulate a real Agile/Scrum QA workflow.
 
 ### 📋 Jira Kanban Board Overview
-![Jira Kanban Board](assets/Screenshot_46.jpg)
+![Jira Kanban Board](assets/jira.jpg)
 
 ---
 
