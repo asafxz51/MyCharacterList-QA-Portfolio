@@ -11,7 +11,7 @@ The goal of this project was to perform comprehensive **Manual Testing** (Functi
 
 * 🌐 **Live App:** [Click here to view the live website](https://mycharacterlist.netlify.app/)
 * 📊 **Test Execution Sheet:** [Click here to view the Google Sheets](https://docs.google.com/spreadsheets/d/1h6TIYJiNofGMxebUR5WtZh4RzmJaeCgCJqgm1MCR-Ww/edit?usp=sharing)
-* 🗂️ **Test Plan (STP/STD):** [Link to your STP document]
+* 🗂️ **Test DOCS (SRS/STP/STD):** [SRS](https://docs.google.com/document/d/19cVtBTOCNY70fnX_aAVDyRJA4O_Se_GeISXBjEFRzNM/edit?usp=sharing) [STP](https://docs.google.com/document/d/1LZ5-8qM0-tM2LknoWILn0QG3KvGhK-jDbDATTPWNFfQ/edit?usp=sharing) [STD](https://docs.google.com/document/d/1wM6g3nJj7wAeV8LlCoCCCjvDL_W88E05L5Vm13LqPJA/edit?usp=sharing)
 
 ---
 
